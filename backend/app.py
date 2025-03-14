@@ -26,7 +26,7 @@ def get_openai_response(prompt: str, system_context: str = None):
         chat = ChatOpenAI(
             model="gpt-4o-mini",
             temperature=0.9,
-            openai_api_key="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"
+            openai_api_key="xxx"
         )
 
         messages = []
